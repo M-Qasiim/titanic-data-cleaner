@@ -1,5 +1,3 @@
-## ⭐ If you found this helpful, consider starring the repo!
-
 # Titanic Data Cleaner 🧹
 
 A beginner-friendly Python script that automatically cleans messy CSV data.
@@ -24,3 +22,5 @@ Uses the famous Titanic dataset (891 passengers, 12 columns)
 ```bash
 pip install pandas
 python data_cleaner.py
+
+## ⭐ If you found this helpful, consider starring the repo!
