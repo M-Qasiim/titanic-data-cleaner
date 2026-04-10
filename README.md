@@ -24,3 +24,5 @@ python data_cleaner.py
 | Age      | 177           | 0       |
 | Cabin    | 687           | 0       |
 | Embarked | 2             | 0       |
+
+## ⭐ If you found this helpful, consider starring the repo!
