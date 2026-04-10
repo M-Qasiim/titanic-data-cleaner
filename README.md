@@ -2,28 +2,25 @@
 
 # Titanic Data Cleaner 🧹
 
-A Python script that automatically cleans messy CSV data.
+A beginner-friendly Python script that automatically cleans messy CSV data.
 
 ## What it does
-- Detects missing values
-- Fills numeric columns (Age) with rounded mean
-- Fills text columns (Cabin, Embarked) with "Unknown"
-- Removes duplicate rows
-- Saves a cleaned CSV file
+
+- Detects missing values  
+- Fills numeric columns (e.g., Age) with the mean value  
+- Fills text columns (e.g., Cabin, Embarked) with "Unknown"  
+- Removes duplicate rows  
+- Saves a cleaned CSV file  
 
 ## Dataset
+
 Uses the famous Titanic dataset (891 passengers, 12 columns)
-- 177 missing Age values
-- 687 missing Cabin values (77%!)
+
+- 177 missing Age values  
+- 687 missing Cabin values (77%)  
 
 ## How to run
+
+```bash
 pip install pandas
 python data_cleaner.py
-
-## Before & After
-| Column   | Missing Before | After   |
-|----------|---------------|---------|
-| Age      | 177           | 0       |
-| Cabin    | 687           | 0       |
-| Embarked | 2             | 0       |
-
